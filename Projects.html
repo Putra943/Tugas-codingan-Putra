@@ -55,268 +55,70 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="Projects.html">Projects</a>
-
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="Contact.html">Contact</a>
                 </li>
-                 <li class="nav-item">
-                     <a class="nav-link" href="https://sg.docworkspace.com/d/sIIP5tI3uAfWUwL0G?sa=601.1123">CV</a>
-                 </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="https://sg.docworkspace.com/d/sIIP5tI3uAfWUwL0G?sa=601.1123">CV</a>
+              </li>
             </ul>
         </div>
     </div>
-</nav>
-
-
-  <section id="profile" class="container-fluid mt-5" style="background-image: url('Bckground.jpg'); background-size: cover; background-position: center; height: 70vh;">
-    <div class="row h-100 align-items-center justify-content-center text-center">
-      <div class="col-md-8">
-        <h1 style="color: #ffffff; font-size: 3em;">Portofolio Muhammad Putra Ramadhan</h1>
-        <p style="color: #ffffff; font-size: 1.5em;">Saya adalah seorang siswa SMKN 11 SEMARANG yang bersekolah di jurusan PPLG(Pengembangan Perangkat Lunak dan Gim)</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="about" class="container mt-5">
-    <div class="row">
-      <div class="col-lg-6 d-flex justify-content-center">
-        <img src="gambar about.jpg" class="img-fluid rounded" alt="About Me" style="width: 40%;">
-      </div>
-      <div class="col-lg-6">
-        <h2>About Me</h2>
-        <p style="color: #ffffff;">Saya adalah siswa XI GIM 4 SMKN 11 SEMARANG . Saya siswa yang berpotensi untuk terus belajar di dunia pembuatan game dan selalu bisa mengembangkan kemampuan saya di dunia perangkat lunak terutama game, saya seorang yang cukup disiplin dan selalu bertanggung jawab atas apa yang di kerjakan.
-          saya juga termasuk siswa aktif disekolah dan mengikuti beberapa ekskul salah satunya adalah PMR dan PA(pecinta alam) dari organisasi ini saya bisa menjadi pribadi yang disiplin dan bertanggung jawab atas tanggung jawab yang telah di serahkan seperti tugas sekolah dll.
-        </p>
-
-      </div>
-    </div>
-  </section>
-      
-    <section id="skills" class="mt-5">
-        <div class="container">
-
-            <h2 style="color: #e0dbdb; font-family: 'Roboto', sans-serif; text-align: center;">Soft Skill / Keahlian</h2>
-            <div class="row text-center">
-                <div class="col-md-2">
-                    <p style="color: #ffffff; font-family: 'Roboto', sans-serif; background-color: #343a40; border-radius: 50px; padding: 10px;">Unity (Intermadiate)</p>
-                </div>
-                <div class="col-md-2">
-
-                    <p style="color: #ffffff; font-family: 'Roboto', sans-serif; background-color: #343a40; border-radius: 50px; padding: 10px;">Ibis Paint x (Beginner)</p>
-                </div>
-                <div class="col-md-2">
-                    <p style="color: #ffffff; font-family: 'Roboto', sans-serif; background-color: #343a40; border-radius: 50px; padding: 10px;">Basic Programming (Intermadiate)</p>
-                </div>
-                <div class="col-md-2">
-
-
-                    <p style="color: #ffffff; font-family: 'Roboto', sans-serif; background-color: #343a40; border-radius: 50px; padding: 10px;">Github (Intermadiate)</p>
-                </div>
-                <div class="col-md-2">
-                    <p style="color: #ffffff; font-family: 'Roboto', sans-serif; background-color: #343a40; border-radius: 50px; padding: 10px;">Html (Intermadiate)</p>
-                </div>
-               
-
-               
-                <div class="col-md-2">
-                    <p style="color: #ffffff; font-family: 'Roboto', sans-serif; background-color: #343a40; border-radius: 50px; padding: 10px;">Canva (Beginner)</p>
-                </div>
-                <div class="col-md-2">
-
-                    <p style="color: #ffffff; font-family: 'Roboto', sans-serif; background-color: #343a40; border-radius: 50px; padding: 10px;">C# (Intermadiate)</p>
-                </div>
-                <div class="col-md-2">
-                    <p style="color: #ffffff; font-family: 'Roboto', sans-serif; background-color: #343a40; border-radius: 50px; padding: 10px;">Design Background Map (Beginner)</p>
-                </div>
-                <div class="col-md-2">
-
-                    <p style="color: #ffffff; font-family: 'Roboto', sans-serif; background-color: #343a40; border-radius: 50px; padding: 10px;">Design Character (Beginner)</p>
-                </div>
-                <div class="col-md-2">
-                    <p style="color: #ffffff; font-family: 'Roboto', sans-serif; background-color: #343a40; border-radius: 50px; padding: 10px;">Design UI/UX (Intermadiate)</p>
-
-                </div>
-               
-
-
-            </div>
-        </div>
-    </section>
-    <script>
-        document.querySelectorAll('a.nav-link').forEach(link => {
-            link.addEventListener('click', function(e) {
-                e.preventDefault();
-                const targetId = this.getAttribute('href').substring(1);
-                const targetSection = document.getElementById(targetId);
-
-                document.querySelectorAll('section').forEach(section => {
-                    section.classList.add('fade-out');
-                });
-
-                setTimeout(() => {
-                    window.location.href = this.getAttribute('href');
-                    targetSection.classList.add('fade-in');
-                }, 500);
-            });
-        });
-    </script>
-
-  <section id="education" class="mt-5">
-    <div class="container">
-        <style>
-            .card-body {
-                text-align: center;
-            }
-        </style>
-        <h2 style="color: #fefafa; font-family: 'Roboto', sans-serif;">Pendidikan</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                  
-                    <img src="Logo SD _ Sekolah Dasar Vector cdr.jpg" class="card-img-top" alt="Pendidikan 1" style="width: 100%; height: 400px; object-fit: cover;"> 
-                    <div class="card-body">
-                        <h5 class="card-title" style="color: #0c0c0c; font-family: 'Roboto', sans-serif;">Sekolah Dasar (SDN 01 SEMARANG)</h5>
-                        <p class="card-text" style="color: #0f0f0f; font-family: 'Roboto', sans-serif;">2014-2020</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="SMP.jpeg" class="card-img-top" alt="Pendidikan 2" style="width: 100%; height: 400px; object-fit: cover;">
-                    <div class="card-body">
-                        <h5 class="card-title" style="color: #030303; font-family: 'Roboto', sans-serif;">Sekolah Menengah Pertama (SMPN 11 SEMARANG)</h5>
-
-                        <p class="card-text" style="color: #0a0a0a; font-family: 'Roboto', sans-serif;">2020-2023</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="Screenshot 2025-02-03 102747.png" class="card-img-top" alt="Pendidikan 3" style="width: 100%; height: 400px; object-fit: cover;">
-                    <div class="card-body">
-                        <h5 class="card-title" style="color: #0f0f0f; font-family: 'Roboto', sans-serif;">Sekolah Menengah Atas (SMKN 11 SEMARANG)</h5>
-                        <p class="card-text" style="color: #0f0e0e; font-family: 'Roboto', sans-serif;">2023-sampai saat ini</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+   </nav>
 </section>
-  <section id="projects" class="container mt-5">
-    <style>
-        #projects h2 {
-            color: #ffffff;
-        }
-    </style>
-    <h2>Projects</h2>
-    <div class="row">
-      <div class="col-md-4">
-        <div class="card">
-          <img src="Project 1.jpg" class="card-img-top" alt="Project Image">
-          <div class="card-body">
-            <h5 class="card-title">Project 1</h5>
-            <p class="card-text">Diproject ini saya membuat game dengan menggunakan Unity dan menggunakan bahasa pemrograman C#. saya memahami bahasa tersebut dan mencoba mengcoding menggunakan c# yang ditugaskan untuk menjalankan asset kekanan dan kekiri </p>
+<section id="projects" class="container mt-5">
+  <style>
+      #projects h2 {
+          color: #ffffff;
+      }
+  </style>
+   <h2>Projects</h2>
+   <div class="row">
+     <div class="col-md-4">
+       <div class="card">
+         <img src="Project 3d.png" class="card-img-top" alt="Project Image">
+         <div class="card-body">
+           <h5 class="card-title">Project 1</h5>
+           <p class="card-text">Project Pertama saya membuat desain 3d menggunakan aplikasi blender, membuat pemyiram tanaman digital.Berikut link vidio desain 3d
+               <li class="nav-item">
+                   <a class="nav-link" href="https://drive.google.com/file/d/18ovJ8kQVRnbYmSZ1NWBL6XUv0GiLOGfr/view?usp=drivesdk">Lihat Project</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="https://drive.google.com/file/d/1nujemsxWM64O7ZeLinm2A8CWTU95ORXp/view?usp=drivesdk">Download</a>
+               </li> </p>           
+         </div>
+       </div>
+     </div>
+     <div class="col-md-4">
+       <div class="card">
+         <img src="Project figma.png" class="card-img-top" alt="Project Image">
+         <div class="card-body">
+           <h5 class="card-title">Project 2</h5>
+           <p class="card-text">Project kedua saya membuat web aplikasi Iotani menggunakan figma yang ditugaskan oleh oembimbing magang saya. </p>           
+         </div>
+       </div>
+     </div>
+     <div class="col-md-4">
+       <div class="card">
+         <img src="Project 2.jpg" class="card-img-top" alt="Project Image">
+         <div class="card-body">
+           <h5 class="card-title">Project 3</h5>
+           <p class="card-text">Project ketiga saya membuat game kelompok yang berisi 5 orang dengan genre adventure. Yang menceritakan tentang seorang jamal yang harus melalui rintangan yang telah dibuat, game 2d dengan nama jamal studio.</p>
            
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card">
-          <img src="Project 2.jpg" class="card-img-top" alt="Project Image">
-          <div class="card-body">
-            <h5 class="card-title">Project 2</h5>
-            <p class="card-text">Project kedua saya membuat game kelompok yang berisi 5 orang dengan genre adventure. Yang menceritakan tentang seorang jamal yang harus melalui rintangan yang telah dibuat, game 2d dengan nama jamal studio.</p>
-           
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card">
-          <img src="Project figma.png" class="card-img-top" alt="Project Image">
-          <div class="card-body">
-            <h5 class="card-title">Project 3</h5>
-            <p class="card-text">Project ketiga saya membuat web aplikasi Iotani menggunakan figma yang ditugaskan oleh oembimbing magang saya. </p>
-            
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card">
-          <img src="Project 3d.png" class="card-img-top" alt="Project Image">
-          <div class="card-body">
-            <h5 class="card-title">Project 4</h5>
-            <p class="card-text">Project keempat saya membuat desain 3d menggunakan aplikasi blender, membuat pemyiram tanaman digital.Berikut link vidio desain 3d
-                <li class="nav-item">
-                    <a class="nav-link" href="https://drive.google.com/file/d/18ovJ8kQVRnbYmSZ1NWBL6XUv0GiLOGfr/view?usp=drivesdk">Lihat Project</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://drive.google.com/file/d/1nujemsxWM64O7ZeLinm2A8CWTU95ORXp/view?usp=drivesdk">Download</a>
-                </li> </p>
-           
-          
+         </div>
+       </div>
+     </div>
+     <div class="col-md-4">
+       <div class="card">
+         <img src="Project 1.jpg" class="card-img-top" alt="Project Image">
+         <div class="card-body">
+           <h5 class="card-title">Project 4</h5>
+           <p class="card-text">Diproject ini saya membuat game dengan menggunakan Unity dan menggunakan bahasa pemrograman C#. saya memahami bahasa tersebut dan mencoba mengcoding menggunakan c# yang ditugaskan untuk menjalankan asset kekanan dan kekiri </p>
+         </div>
+       </div>
+     </div>
+   </div>
+   
   
-          </div>
-        </div>
-      </div>
-    </div>
-    
-
   
-
-  <section id="contact" class="mt-5">
-    <div class="container">
-        <style>
-          
-        </style>
-        <h2 style="color: #f1eaea; font-family: 'Roboto', sans-serif;">Contact</h2>
-        <div class="row justify-content-center contact-icons">
-            <div class="col-md-3 text-center">
-                <a href="https://wa.me/62895414878503" target="_blank">
-                    <img src="Icônes de Whatsapp en téléchargement gratuit.jpg" class="img-fluid" alt="WhatsApp">
-                    <p style="color: #ffffff; font-family: 'Roboto', sans-serif;">WhatsApp</p>
-                </a>
-            </div>
-            <div class="col-md-3 text-center">
-                <a href="https://www.instagram.com/putraa.rmd?igsh=aWpoZW0xa2dkZ3F0 " target="_blank">
-                    <img src="76d2cf33-2fe6-4951-81ec-c279531c9b3d.jpg" class="img-fluid" alt="Instagram">
-                    <p style="color: #ffffff; font-family: 'Roboto', sans-serif;">Instagram</p>
-                </a>
-            </div>
-            <div class="col-md-3 text-center">
-                <a href="mailto:muhamatputa79@gmail.com">
-                    <img src="Gmail.jpg" class="img-fluid" alt="Email">
-                    <p style="color: #ffffff; font-family: 'Roboto', sans-serif;">Email</p>
-                </a>
-            </div>
-            <div class="col-md-3 text-center">
-                <a href="https://www.facebook.com/share/18sozpJ5gQ/" target="_blank">
-                    <img src="download (4).jpg" class="img-fluid" alt="Facebook">
-                    <p style="color: #ffffff; font-family: 'Roboto', sans-serif;">Facebook</p>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-<script>
-    document.querySelectorAll('a.nav-link').forEach(link => {
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-            const targetId = this.getAttribute('href').substring(1);
-            const targetSection = document.getElementById(targetId);
-
-            document.querySelectorAll('section').forEach(section => {
-                section.classList.add('fade-out');
-            });
-
-            setTimeout(() => {
-                window.location.href = this.getAttribute('href');
-                targetSection.classList.add('fade-in');
-            }, 500);
-        });
-    });
-</script>
-</body>
-</html>
